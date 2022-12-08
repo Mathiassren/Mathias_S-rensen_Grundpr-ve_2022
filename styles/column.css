@@ -1,0 +1,29 @@
+#top {
+  max-height: 545px;
+}
+
+.full-width-purple {
+  background-color: #4525f2;
+  display: flex;
+}
+
+/*text*/
+
+.full-width-purple p {
+  color: white;
+  font-size: 20px;
+}
+
+#top article {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  gap: 6rem;
+  padding: 5rem 1rem;
+}
+
+span {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}

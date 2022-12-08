@@ -1,0 +1,46 @@
+.background-color {
+  background-color: #efefef;
+  padding-top: 91px;
+}
+
+#content {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+}
+.content {
+  width: 1080px;
+  margin: auto;
+  display: flex;
+}
+
+/*Text ,img & btns*/
+.flex-text-content {
+  max-width: 539px;
+  height: 203px;
+  margin-right: 91px;
+}
+
+.flex-text-content p {
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.flex-img {
+  width: 352px;
+  height: 352px;
+  margin-bottom: 22px;
+}
+
+.flex-text-content button {
+  background-color: #4525f2;
+  border-radius: 10px;
+  border: none;
+  padding: 13px 36px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,70 @@
+header {
+  background-image: url(/asset/imgs/topbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav-links,
+a {
+  display: flex;
+  gap: 42px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1080px;
+  margin: auto;
+  min-height: 8vh;
+  align-items: center;
+  margin-bottom: 33.8px;
+}
+
+/*Text & btns*/
+.text-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-top: 369px;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #8b8b8b;
+}
+
+.text-container h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-btn {
+  background-color: #4525f2;
+  border-radius: 10px;
+  border: none;
+  padding: 13px 44px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #4525f2;
+}

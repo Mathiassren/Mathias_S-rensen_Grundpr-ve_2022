@@ -1,0 +1,44 @@
+.main-content {
+  width: 1080px;
+  margin: auto;
+  display: flex;
+}
+
+/*Main content reverse*/
+.main-content-reverse {
+  width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*Text, btns & imgs*/
+main img {
+  width: 540px;
+  height: 309px;
+}
+.flex-text {
+  margin-top: 24px;
+  width: 431px;
+  margin: auto;
+}
+
+.flex-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.flex-text p {
+  color: #333333;
+  font-weight: lighter;
+}
+
+.tags {
+  display: flex;
+}
+
+.tags a {
+  color: #1968f9;
+  padding-top: 24px;
+}

@@ -1,0 +1,93 @@
+@import url(/styles/navigation.css);
+@import url(/styles/content.css);
+@import url(/styles/main-content.css);
+@import url(/styles/column.css);
+@import url(/styles/form.css);
+@import url(/styles/burgermenu.css);
+@import url(/styles/footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Font family*/
+::placeholder,
+h1,
+h3,
+p,
+a {
+  font-family: "Roboto";
+}
+
+/*tablet*/
+
+@media only screen and (max-width: 768px) {
+  /*nav*/
+  nav {
+    display: block;
+    justify-content: center;
+  }
+
+  nav a {
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  /*main content*/
+  .main-content-reverse {
+    width: 768px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .main-content {
+    width: 768px;
+  }
+
+  .flex-text {
+    padding-left: 25px;
+  }
+
+  main img {
+    width: 382px;
+    height: 250px;
+  }
+
+  /*column*/
+
+  /*form*/
+  #contact-page {
+  }
+
+  .full-width {
+    width: 768px;
+    display: block;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  /*footer*/
+  footer {
+    padding-left: 60px;
+  }
+
+  footer p {
+    width: 100%;
+  }
+
+  footer div {
+    display: flex;
+  }
+}

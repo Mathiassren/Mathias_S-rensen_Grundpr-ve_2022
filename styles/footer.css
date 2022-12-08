@@ -1,0 +1,23 @@
+footer {
+  background-color: #4525f2;
+  height: 80px;
+}
+
+#some-icons {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 24.4px;
+  max-width: 1080px;
+  margin: auto;
+}
+
+#some-icons i {
+  width: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#some-icons p {
+  padding-left: 50%;
+}
